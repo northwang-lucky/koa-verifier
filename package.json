@@ -1,10 +1,18 @@
 {
   "name": "koa-verifier",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Typescript version of koa-parameter",
-  "main": "index.js",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": "https://github.com/wyb199877/koa-verifier.git",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "mocha --reporter spec"
   },
   "author": "sirw",
   "license": "MIT",
