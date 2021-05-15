@@ -1,5 +1,5 @@
 {
-  "name": "koa-parameter-ts",
+  "name": "koa-verifier",
   "version": "1.0.0",
   "description": "Typescript version of koa-parameter",
   "main": "index.js",
