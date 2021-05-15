@@ -1,0 +1,20 @@
+{
+  "name": "koa-parameter-ts",
+  "version": "1.0.0",
+  "description": "Typescript version of koa-parameter",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "sirw",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "parameter": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/parameter": "^3.6.1",
+    "typescript": "^4.2.4"
+  }
+}
