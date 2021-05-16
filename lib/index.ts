@@ -48,6 +48,13 @@ class Verifier {
       params = Object.assign({}, params, ctx.params)
     }
 
+    if (!this.parameter) {
+      console.warn(
+        "It seems that the koa-verifier hasn't been registerd as a middleware, " +
+          'Please use Verifier.register() to register first, and then verify the parameters'
+      )
+      return
+    }
     const errors = this.parameter.validate(rules, params)
     if (!errors) {
       return
@@ -60,4 +67,5 @@ class Verifier {
   }
 }
 
+module.exports = Verifier
 export default Verifier
