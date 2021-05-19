@@ -1,6 +1,6 @@
 {
   "name": "koa-verifier",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The koa-parameter refactored by Typescript, and some changes have been made in the way it is used.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
