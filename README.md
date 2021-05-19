@@ -12,6 +12,12 @@ The koa-parameter refactored by Typescript, and some changes have been made in t
 npm install koa-verifier --save
 ```
 
+If you need perfect syntax hints, you can choose to install these two dependencies:
+
+```shell
+npm i @types/koa @types/parameter --save-dev
+```
+
 In the entry file of your application:
 
 ```typescript
