@@ -12,7 +12,7 @@
   ],
   "repository": "https://github.com/wyb199877/koa-verifier.git",
   "scripts": {
-    "build": "rm -r --force build && tsc",
+    "build": "rm -rf build && tsc",
     "test": "mocha --reporter spec"
   },
   "author": "sirw",
